@@ -1,8 +1,8 @@
  <h1>React 3D Flip Cards App</h1>
   <p>This is a React.js application that demonstrates three 3D flip cards showcasing shoe descriptions. When the user clicks on a button, the card flips to reveal additional details about the shoe.</p>
   <p align="center">
-    <img src="https://res.cloudinary.com/dj6kxvxqb/image/upload/v1685301509/Screen_Shot_2023-05-28_at_8.15.33_PM_pzdyhi.png" width="49%" />
-    <img src="https://res.cloudinary.com/dj6kxvxqb/image/upload/v1685301505/Screen_Shot_2023-05-28_at_8.15.54_PM_kgjoyl.png" width="49%" />
+    <img src="https://res.cloudinary.com/dj6kxvxqb/image/upload/v1685301509/Screen_Shot_2023-05-28_at_8.15.33_PM_pzdyhi.png" width="55%" />
+    <img src="https://res.cloudinary.com/dj6kxvxqb/image/upload/v1685301505/Screen_Shot_2023-05-28_at_8.15.54_PM_kgjoyl.png" width="55%" />
   </p>
   
   <h2>Features</h2>
@@ -22,6 +22,19 @@
     <pre><code>npm install</code></pre>
     <pre><code>yarn install</code></pre>
   </ol>
+
+  <h2>Docker</h2>
+  <p>Alternatively, you can run the application inside a Docker container. Follow the steps below:</p>
+
+  <ol>
+   <li>Build the Docker image:</li>
+    <pre><code>docker build -t 3d-flip-card .</code></pre>
+  
+   <li>Run the Docker container:</li>
+   <pre><code>docker run -p 3000:3000 3d-flip-card</code></pre>
+  
+   <li>Open your web browser and visit <a href="http://localhost:3000">http://localhost:3000</a> to see the application in action.</li>
+ </ol>
 
   <h2>Usage</h2>
   <ol>
