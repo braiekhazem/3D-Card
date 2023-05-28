@@ -1,0 +1,39 @@
+@use "./../abstracts" as *;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: $white;
+  background-color: white;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-width: 4px;
+  scrollbar-color: #dadada #f4f4f4;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 4px;
+  z-index: 120;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f4f4f4;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 0;
+  border: 0px solid #f4f4f4;
+}
